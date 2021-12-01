@@ -16,9 +16,14 @@
       <audio id="music">
         <source src="My Heart Will Go On.mp3" type="audio/mpeg" loop="true" autostart="true">
           </audio>
+      <audio id="Flute">
+        <source src="Flute.mp3" type="audio/mpeg" loop="true" autostart="false">
+      </audio>
           <p>Click the button for full experience.</p>
           <button onclick="play()" type="button">Sail</button>
           <button onclick="pause()" type="button">Sink</button>
+          <button onclick="Flute()" type="button">Ice Berg</button>
+          <button onclick="Float()" type="button">Stop</button>
           <script>
             var myMusic= document.getElementById("music");
             function play() {
@@ -27,6 +32,13 @@
             function pause() {
             myMusic.pause();
             }
+            var fluteGaming= document.getElementById("Flute")
+            function Flute(){
+              fluteGaming.play();
+            }
+            function Float(){
+              fluteGaming.pause()
+            } 
             </script>
     </div>
     <div class="graph1">
