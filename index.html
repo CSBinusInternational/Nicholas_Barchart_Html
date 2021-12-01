@@ -12,6 +12,23 @@
     <div class="header">
       <h1>Titanic Charts</h1>
     </div>
+    <div class ="sound">
+      <audio id="music">
+        <source src="My Heart Will Go On.mp3" type="audio/mpeg">
+          </audio>
+          <p>Click the button for full experience.</p>
+          <button onclick="play()" type="button">Play </button>
+          <button onclick="pause()" type="button">Pause</button>
+          <script>
+            var myMusic= document.getElementById("music");
+            function play() {
+            myMusic.play();
+            }
+            function pause() {
+            myMusic.pause();
+            }
+            </script>
+    </div>
     <div class="graph1">
       <section>
         <h2>Female/Male</h2>

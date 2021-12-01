@@ -283,7 +283,10 @@
   .graph5{
       color:white;
   }
-
+  .sound{
+    text-align: center;
+    color:white;
+  }
 .end{
     background-color: rgb(255, 255, 255);
     padding: 5px;
